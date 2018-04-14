@@ -1,5 +1,5 @@
 #!/bin/bash
 touch copy
-mkdir copydir
-cp copy copydir
+mkdir copydir1
+cp copy copydir1
 
