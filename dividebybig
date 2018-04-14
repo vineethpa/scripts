@@ -1,0 +1,12 @@
+#!/bin/bash
+a=1
+b=2
+
+if [[ $a < 0  &&  $b < 0 ]]; then
+echo "sorry integers only"
+elif [ $a > $b ]; then
+result=$(($b/$a))
+else
+result=$(($a/$b))
+fi
+echo "result is $result"

@@ -1,0 +1,14 @@
+echo "enter basic"
+read b
+dp=$(bc<<<"$b*.5")
+da=$(bc<<<"$b+$dp"*.35)
+hra=$(bc<<<"$b+$dp"*.8)
+ma=$(bc<<<"$b+$dp"*.30)
+pf=$(bc<<<"$b+$dp"*.10)
+
+salary=$(bc<<<"$b+$dp+$da+$hra+$ma-$pf")
+
+echo "$salary"
+
+
+

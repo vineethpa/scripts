@@ -1,0 +1,10 @@
+echo "enter the amount"
+read a
+echo "enter time"
+read t
+echo "enter interest"
+read i
+echo $a $t $i
+
+value=$(($a * $t * $i))
+echo "$value" 

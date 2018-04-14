@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo "enter the no"
+read a
+
+if [ $a>0 ]; then
+
+for()
+
+sum=$()
+
+done
+
+echo "the sum is $sum"
+

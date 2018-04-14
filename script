@@ -1,0 +1,5 @@
+#!/bin/bash
+date
+touch dummyfile
+echo script completed
+

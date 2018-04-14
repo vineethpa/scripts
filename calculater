@@ -1,0 +1,59 @@
+#!/bin/bash
+
+
+sum(){
+
+echo "sum:$(($1+$2))"
+}
+
+minimize(){
+
+echo "minimize:$(($1-$2))"
+
+}
+
+multiplication(){
+
+echo "multiplication:$(($1*$2))"
+
+}
+
+division(){
+
+echo "division:$(($1/$2))"
+
+}
+
+
+case $1 in
+
+sum)
+
+sum $2 $3
+;;
+
+minimize)
+
+minimize $2 $3
+
+;;
+multiplication)
+
+multiplication $2 $3
+
+;;
+
+division)
+
+division $2 $3
+
+;;
+
+*)
+
+echo "Usage: $0 {sum|minimize|multiplication|division} val1 val2"
+
+exit 1
+;;
+
+esac

@@ -1,0 +1,12 @@
+echo "enter the first no"
+read a
+echo "enter the second no"
+read b
+echo "enter the third no"
+read c
+echo "enter the fourth no"
+read d
+
+avrage=$(bc<<<"$a+$b+$c+$d"/100)
+
+echo "the average is $avrage" 
