@@ -1,0 +1,6 @@
+#!/bin/sh
+read $1
+read $2
+c='expr $1+$2'
+echo "The value of c is" 
+echo $c
